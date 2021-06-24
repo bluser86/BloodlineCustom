@@ -1,0 +1,9 @@
+## Interface: 20501
+## Title: |cff16C3F2Bloodline|r|cFFFFFFFFCustom|r
+## Version: 1.0.0
+## Author: Bloodline
+## OptionalDeps: ElvUI, AddOnSkins
+## SavedVariablesPerCharacter: BloodlineCustomDB
+Embeds.xml
+Config.lua
+BloodlineCustom.lua
