@@ -123,8 +123,8 @@ function BloodlineCustom:HandleAutomaticRestock()
 end
 
 f:RegisterEvent("ADDON_LOADED")
-function f:ADDON_LOADED()
-    if ADDON_NAME ~= "BloodlineCustom" then return end
+function f:ADDON_LOADED(addonName)
+    if ADDON_NAME ~= addonName then return end
 
     local dbDefaults = {
         char = {
